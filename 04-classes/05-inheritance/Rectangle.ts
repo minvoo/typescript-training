@@ -40,4 +40,9 @@ export class Rectangle extends Shape {
     public getInfo(): string {
         return super.getInfo() + ` width=${this._width} height=${this._height}`;
     }
+
+    public calculateArea(): number {
+        return this._width * this._height;
+    }
+
 }

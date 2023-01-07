@@ -17,8 +17,8 @@ class Customer2 {
   }
 
   constructor(firstName: string, lastName: string) {
-    this.firstName = firstName;
-    this.lastName = lastName;
+    this._firstName = firstName;
+    this._lastName = lastName;
   }
 
 }
